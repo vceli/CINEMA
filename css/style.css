@@ -1,0 +1,187 @@
+body{
+	font-family: sans-serif;
+}
+
+/* parte header*/
+header{
+	background-color: #F5F5F5;
+}
+
+.logo{
+	margin-left: 30px;
+	width: 230px;
+
+}
+
+.linea a{
+	text-decoration: none;
+	color:#A0A0A0;
+	font-size: 10px;
+}
+
+.linea{
+	padding-top: 16px;
+}
+
+form{
+	margin-top: 5px;
+	height: 30px;
+	margin-left: 80px;
+}
+
+input{    
+	padding: 10px;
+	background: url('../search-icon-md.png') no-repeat 97% center; /*icono lupa*/
+	background-size: 16px 18px;
+	padding-right: 30px;
+	border: 1px solid #B9B7B7; 
+	margin-left: 60px;
+	width: 60%;
+}
+
+.imagHero{
+	background: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	height: 450px;
+	background-size: 600px 453px;
+}
+ 
+.imagHero2{
+	background: #383838;
+	color: white;
+	font-size: 14px;
+}
+
+.hero{
+	border-bottom: 1px solid white;
+	font-size: 23px;
+	padding-top:10px;
+	padding-bottom: 10px; 
+} 
+
+.allAge{
+	border:2px solid #3CBF46;
+	border-radius:7px;
+	color: #3CBF46;
+	padding: 13px;
+	width: 80px;
+	margin-top: 10px;
+}
+
+.texto{
+	padding-top: 25px;
+}
+
+ul{
+	list-style:none;
+	margin-left: -15px;
+	padding-top: 15px;
+}
+
+li{
+	margin-bottom: 15px;
+}
+
+.botonticket, .botonYoutube{
+	width: 15px;
+	height: 11px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+.ticket,.youtube{
+	background-color: #DFB636;
+	width: 190px;
+	padding: 15px;
+	border-radius: 7px;
+	margin-top: 15px;
+}
+
+.ticket{
+	background-color: #BB7B29;
+	margin-bottom: 56px;
+}
+
+.lineatres img{
+	width: 150px;
+	height: 150px;
+}
+
+/*revisar*/
+.dos{
+	height: 450px;
+}
+/*revisar*/
+.tres{
+	background-color: #DFB636;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.oscuro{
+	border-radius:3px;
+	width: 125px;
+	background-color: #BB7B29;
+	padding:17px 18px 17px 13px;
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+
+.oscuro a{
+	font-size: 10px;
+}
+
+.fila4{
+	margin-top:30px; 
+}
+ 
+.letralateral h4, .fila4 h4{
+	color:#CCCCCC;
+}
+
+span{
+	color:#DDD;
+}
+
+.letralateral{
+	border-bottom:1px solid #DDD;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.marron{
+	color:#BB7B29;
+}
+
+.mas{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.aula{
+	width: 215px;
+	height: 215px;
+	padding-bottom: 30px;
+}
+
+footer{
+	background-color: #F3F3F3;
+	color:#DDD;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.pie{
+	font-size: 10px;
+}
+.footer2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 10px;
+}
+
+.footer3{
+	font-size: 8px;
+	padding-bottom: 20px;
+}

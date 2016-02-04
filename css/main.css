@@ -1,0 +1,202 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+header{
+	position: fixed;
+	background-color: rgba(255,255,255,0.95);
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.logo{
+	width: 327px;
+    height: 62px;
+}
+
+.derechacinema{
+	padding-left: 0px;
+    padding-top: 24px;
+    font-size: 12px;
+}
+
+.derechacinema a{
+	color:#B9B7B7;
+}
+
+/*=======boton de buscar=======*/
+input{    
+	background: url('../search-icon-md.png') no-repeat 97% center; /*icono lupa*/
+	background-size: 16px 18px;
+	border: 1px solid #B9B7B7; 
+}
+/*==============================*/
+
+/*========fondo hero==========*/
+.imagenhero{
+	background: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-color: #383838;
+	color: rgba(255,255,255,0.8);/*color de fuente para todo el div*/
+	font-size: 12px;/*tamaño de fuente a todo el div*/
+	background-size: 900px 610px;/*tamaño de la imagen de fondo*/
+	border: 1px solid red;
+}
+
+.icono img{  /*imagen rojo adelante del fondo*/
+	width: 78px;
+	height: 85px;
+	position: relative;
+    top: 275px;
+	left: 210px;
+}
+
+.hero{
+	border: 1px solid red;
+	padding-top: 90px;
+}
+
+.iconos{
+	border: 1px solid blue;
+}
+
+.hero h1{
+	font-size: 46px;/*tamaño de letra Hero 6*/
+    padding-bottom: 18px;
+    margin-left: 15px;
+  	border-bottom: 1px solid rgba(255,255,255,0.8);
+  	margin-right: 67px;
+ }
+
+.filacajaedades{
+	padding-top: 20px;
+}
+
+.cajaedades{
+	border: 2px solid #3ACC67;
+	border-radius:5px;
+	color: #3ACC67;
+	width: 70px;
+	padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.ladocajaedades{
+    padding-top: 9px;
+}
+
+.lista{
+	margin-right: 10px;
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+
+.lista1{
+	padding-left: 0px;
+}
+
+.lista2{
+	padding-left:33px;
+}
+
+.lista1 li,.lista2 li{
+	margin-bottom: 11px;
+}
+
+.imagenhero p{
+    padding-right: 87px;
+}
+
+.antesdelboton{
+	padding-bottom:20px;
+}
+
+.botonYoutube , .botonTicket{
+	border-radius: 4px;
+	background-color: #DFB636; 
+	padding:13px 0px 13px 14px;
+	width: 164px;
+	/*font-weight: bold;*/
+	margin-bottom: 19px;
+}
+
+.botonYoutube a , .botonTicket a{
+	color:white;
+	font-size:14px
+}
+
+.botonTicket{
+	background-color: #BB7B29;
+	margin-bottom: 76px;
+}
+
+/*==============================*/
+
+
+
+/*=========== FILA 3 ============*/
+.fondoFila3{
+	background-color: #DFB636;
+}
+
+.imagFila3{
+	width: 188px;
+    height: 210px;
+
+}
+
+.cajadeimagFila3{
+	padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+/*==============================*/
+
+.quitar{
+	border:1px solid red;
+	padding-top:100px;
+}
+
+.quitar1{
+	border:1px dashed yellow;
+	font-size:23px;
+}
+
+.quitar1 div{
+	padding-bottom:30px;
+}
+
+.quitar2{
+	border:1px solid green;
+	padding-left: 25px;
+}
+
+.quitar2 :nth-child(5){
+	color: #C79355;
+    font-size: 21px;
+}
+
+.quitar3{
+	border:1px solid blue;
+}
+
+.botonTicketbrown{
+	border:1px solid black;
+
+}
+
+.botonTicketbrown a{
+	border: 1px dashed blue;
+	color:white;
+	background-color: #BB7B29;
+	font-size:17px;
+}
+
+
